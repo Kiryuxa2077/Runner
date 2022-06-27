@@ -4,7 +4,7 @@ public class Move : MonoBehaviour
 {
     [SerializeField] private LayerMask _groundLayerMask;
     [SerializeField] private float playerSpeed = 5.0f;
-    [SerializeField] private float jumpPower = 5.0f;
+    [SerializeField] private float jumpPower = 5.7f;
     private BoxCollider2D _characterCollider;
 
     public bool isGrounded;
